@@ -27,11 +27,12 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Hadoukenn.loader.js";
+      var loaderUrl = buildUrl + "/Hadoukenn.asm.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Hadoukenn.data.unityweb",
-        frameworkUrl: buildUrl + "/Hadoukenn.framework.js.unityweb",
-        codeUrl: buildUrl + "/Hadoukenn.wasm.unityweb",
+        dataUrl: buildUrl + "/Hadoukenn.data.gz",
+        frameworkUrl: buildUrl + "/Hadoukenn.asm.framework.js.gz",
+        codeUrl: buildUrl + "/Hadoukenn.asm.js.gz",
+        memoryUrl: buildUrl + "/Hadoukenn.asm.mem.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "HadoukennKikiippatu",
